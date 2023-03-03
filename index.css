@@ -1,0 +1,73 @@
+  body,
+  html {
+      height: 100%;
+  }
+
+  .f1 {
+      /* The image used */
+      background-image: url("https://images.unsplash.com/photo-1557682260-96773eb01377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b3JhbmdlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+      min-height: 1000px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+  }
+
+  .container {
+      color: black;
+      position: absolute;
+      left: 0;
+      margin: 20px;
+      max-width: 300px;
+      padding: 16px;
+      background-color: white;
+      border-radius: 6px;
+  }
+
+  .e {
+      box-sizing: border-box;
+      border-radius: 4px;
+      border: 2px;
+      border-style: solid;
+  }
+
+  #name {
+      box-sizing: border-box;
+      border-radius: 4px;
+      border: 2px;
+      border-style: solid;
+  }
+
+  #password {
+      box-sizing: border-box;
+      border-radius: 4px;
+      border: 2px;
+      border-style: solid;
+  }
+
+  .b {
+      margin-left: 35%;
+      background-color: darkgoldenrod;
+      color: black;
+      border-radius: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .e1 {
+      color: white;
+      position: absolute;
+      right: 0;
+      margin: 20px;
+      max-width: 700px;
+      max-height: 500px;
+      padding: 16px;
+      background-color: black;
+  }
+
+  input#name:invalid:focus {
+      border: 1px solid red;
+  }
